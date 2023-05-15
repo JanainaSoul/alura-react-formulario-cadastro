@@ -1,13 +1,14 @@
-import {render} from '@testing-library/react';
-import React from 'react';
+//import {render} from '@testing-library/react';
+import React, {useState} from 'react';
 //import Button from '@material-ui/core/Button';
 import {TextField, Switch, Button, FormControlLabel} from '@material-ui/core';
 
 function FormularioCadastro(){
-    let nome = "Janaina";
-    state={}
+    const [nome, setNome]= useState("Janaina");
+    
     return (
-        <form onSubmit={(event) => {
+        <form 
+            onSubmit={(event) => {
             event.preventDefault();
             console.log(nome);
             }}
@@ -16,11 +17,10 @@ function FormularioCadastro(){
             <TextField
             value={nome}
             onChange={(event) => {
-                nome = event.target.value;
-                if(nome.length >3) {
-                    nome = nome.substr(0,3);
+                setNome(event.target.value);
+                if(nome.length >= 3) {
+                    setNome(nome.substring(0,3));
                 }
-
 
                 }}
                 id="nome" 
