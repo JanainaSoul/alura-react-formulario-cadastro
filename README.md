@@ -1,3 +1,17 @@
+# Linguagens
+
+# aprendizados
+
+01 - Inciando com Functions Components
+
+Como criar um Function Component e quais são as diferenças dele com um Class Component
+
+Instalando pacotes via NPM no nosso projeto
+
+Vantagens de se usar o MaterialUI
+
+Por que usar um design system pronto facilita nossa vida
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
