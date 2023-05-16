@@ -38,6 +38,18 @@ Desconstrução de Arrays
 
 Assincronicidade da função de atribuição do estado
 
+04 - Regras dos Hooks
+
+Quais são as Regras de utilização dos Hooks
+
+Propriedade checked para Switchs
+
+Criando mais estados e a maneira de trabalhar com eles em function components
+
+Como receber propriedades em um componente de função
+
+Desconstrução de Objetos no JS
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
