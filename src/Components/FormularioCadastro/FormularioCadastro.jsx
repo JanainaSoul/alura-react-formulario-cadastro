@@ -80,11 +80,7 @@ function FormularioCadastro({aoEnviar, validarCPF}){
                 color="primary"/> }
             />
                         
-            <Button 
-                type="submit" 
-                variant="contained" 
-                color="primary"
-            > 
+            <Button type="submit" variant="contained" color="primary"> 
                 Cadastrar
             </Button>
             
